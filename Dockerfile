@@ -2,9 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER cookiter zqu244@qq.com
 
-RUN apt-get update
 
-RUN apt-get -y upgrade	
 
 RUN \
 	sudo apt-get install -y git-core && \
